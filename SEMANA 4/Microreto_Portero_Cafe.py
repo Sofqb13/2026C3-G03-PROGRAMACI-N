@@ -10,7 +10,7 @@ if energia < 30 and not (trae_cafe):
 elif energia >= 30 or trae_cafe :
     print("Bienvenido, puede pasar!")
 else:
-    mensaje= "Portero confundido!, revisar las respuestas."
+    mensaje= "Portero confundido!, revisar las respuestas." 
 
 
 

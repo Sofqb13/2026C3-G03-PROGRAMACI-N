@@ -13,6 +13,7 @@ print("Total inicial:", sum(ventas))
 
 print("Segundo día corregido:", ventas[1])
 print("Total corregido:", sum(ventas))
+ventas[1]= 100000
 
 # Para explicar: ¿por qué no cambió la cantidad de elementos?
 # Para comprobar: el total pasa de 255000 a 263000; aumenta 8000.
