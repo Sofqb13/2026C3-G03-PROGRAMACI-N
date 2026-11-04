@@ -10,10 +10,10 @@ print("Total inicial:", sum(ventas))
 
 # La venta del segundo día se corrigió de 92000 a 100000.
 # TODO: actualice la posición adecuada con una asignación por índice.
-
+ventas [1]= 100000
 print("Segundo día corregido:", ventas[1])
 print("Total corregido:", sum(ventas))
-ventas[1]= 100000
+
 
 # Para explicar: ¿por qué no cambió la cantidad de elementos?
 # Para comprobar: el total pasa de 255000 a 263000; aumenta 8000.
